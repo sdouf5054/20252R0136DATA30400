@@ -21,7 +21,7 @@ HIERARCHY_PATH = PROJECT_ROOT / "class_hierarchy.txt"
 
 # Submissions
 TFIDF_SUBMISSION = PROJECT_ROOT / "outputs/submission_tfidf_baseline.csv"
-GNN_SUBMISSION = PROJECT_ROOT / "outputs/submission_gnn.csv"
+GNN_SUBMISSION = PROJECT_ROOT / "outputs/submission_gnn_4.csv"
 
 # Output
 OUTPUT_DIR = PROJECT_ROOT / "outputs"
