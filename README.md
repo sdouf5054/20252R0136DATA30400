@@ -22,10 +22,10 @@ The easiest way to reproduce the full pipeline is:
 | Dummy baseline | `dummy_baseline.ipynb` | 0.00436 |
 | TF-IDF baseline | `tfidf_baseline_fast.py` | 0.21251 |
 | Self-training (pseudo-labeling, threshold = 0.5) | `selftrain_baseline.py` | **0.21334** |
-| GNN v1 | `gnn_baseline__.py` | 0.10250 |
-| GNN v2 | `gnn_baseline__2.py` | 0.14832 |
-| GNN v3 | `gnn_baseline__3.py` | 0.12793 |
-| GNN v4 (hidden=256, epochs=20) | `gnn_baseline__4.py` | 0.16737 |
+| GNN v1 | `gnn_baseline.py` | 0.10250 |
+| GNN v2 | `gnn_baseline_2.py` | 0.14832 |
+| GNN v3 | `gnn_baseline_3.py` | 0.12793 |
+| GNN v4 (hidden=256, epochs=20) | `gnn_baseline_4.py` | 0.16737 |
 
 ---
 
@@ -53,14 +53,14 @@ The easiest way to reproduce the full pipeline is:
   **Score:** 0.21334
 
 ### GNN Experiments
-- **`gnn_baseline__.py`** — GNN v1 (initial LabelGCN baseline)  
-- **`gnn_baseline__2.py`** — GNN v2 (valid class coverage improvement)  
-- **`gnn_baseline__3.py`** — GNN v3 (stability fixes + epochs increase)  
-- **`gnn_baseline__4.py`** — GNN v4 (hidden dim / epochs scaled up)  
+- **`gnn_baseline.py`** — GNN v1 (initial LabelGCN baseline)  
+- **`gnn_baseline_2.py`** — GNN v2 (valid class coverage improvement)  
+- **`gnn_baseline_3.py`** — GNN v3 (stability fixes + epochs increase)  
+- **`gnn_baseline_4.py`** — GNN v4 (hidden dim / epochs scaled up)  
   Best GNN score: **0.16737**
 
 ### Case Study
-- **`case_study_extraction__.py`**  
+- **`case_study_extraction.py`**  
   Extracts qualitative success/failure examples from test predictions for the report case study section.
 
 ---
@@ -72,6 +72,6 @@ If running manually (outside the notebook), a typical order is:
 1. `silver_label_generation_sagemaker.py`  
 2. `tfidf_baseline_fast.py`  
 3. `selftrain_baseline.py`  
-4. `gnn_baseline__4.py` (or other GNN variants)  
-5. `case_study_extraction__.py`
+4. `gnn_baseline_4.py` (or other GNN variants)  
+5. `case_study_extraction.py`
 
