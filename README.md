@@ -2,6 +2,8 @@
 
 This repository contains my solution code for the **DATA304 (Big Data Analysis) Final Project**.
 
+Associated Final Report is **"Report_Choi_Seungmin_2020320086_2nd.pdf"** submitted in LMS
+
 ## Project Setup / Reproducibility
 
 **All code is runnable by copying the contents of this repository into `./project_release/`** (the project-provided directory) and executing from there.
@@ -75,3 +77,10 @@ If running manually (outside the notebook), a typical order is:
 4. `gnn_baseline_4.py` (or other GNN variants)  
 5. `case_study_extraction.py`
 
+---
+
+## LLM usage History (not API calls, but conversations)
+
+ChatGPT : https://chatgpt.com/share/6944c982-30c4-8010-ab0c-bf937708d282
+
+Claude : https://claude.ai/share/78ebe9ce-0e64-497c-818f-f1b12561c218
