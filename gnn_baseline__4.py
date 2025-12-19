@@ -46,9 +46,9 @@ RANDOM_SEED = 42
 MAX_FEATURES = 10000
 
 # GNN parameters
-GNN_HIDDEN_DIM = 128       # Reduced from 256
+GNN_HIDDEN_DIM = 256       
 GNN_NUM_LAYERS = 2
-NUM_EPOCHS = 10            # Increased to 10 for better convergence
+NUM_EPOCHS = 20            # Increased to 20 for better convergence
 BATCH_SIZE = 256           # Increased for speed
 LEARNING_RATE = 0.001
 
