@@ -37,7 +37,7 @@ KEYWORDS_PATH = PROJECT_ROOT / "class_related_keywords.txt"
 # Output
 OUTPUT_DIR = PROJECT_ROOT / "outputs"
 OUTPUT_DIR.mkdir(exist_ok=True)
-SUBMISSION_PATH = OUTPUT_DIR / "submission_gnn.csv"
+SUBMISSION_PATH = OUTPUT_DIR / "submission_gnn_2.csv"
 
 # ==================== Parameters ====================
 NUM_CLASSES = 531
